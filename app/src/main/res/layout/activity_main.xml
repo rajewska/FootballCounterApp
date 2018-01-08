@@ -27,7 +27,7 @@
                 android:layout_marginTop="24dp"
                 android:gravity="center_horizontal"
                 android:text="@string/team_a"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -130,7 +130,7 @@
                 android:layout_marginTop="24dp"
                 android:gravity="center_horizontal"
                 android:text="@string/team_b"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -234,7 +234,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/bottom_button_shape"
         android:onClick="reset"
         android:paddingLeft="48dp"
