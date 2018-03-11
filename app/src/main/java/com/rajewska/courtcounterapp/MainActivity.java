@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     int scoreTeamA;
     int scoreTeamB;
     int yellowA;
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         displayForTeamA(0);
     }
-    
+
     // This method displays points for Team A
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
@@ -97,19 +96,14 @@ public class MainActivity extends AppCompatActivity {
     public void reset(View view) {
         displayForTeamA(0);
         displayForTeamB(0);
-
         displayForYellowTeamA(0);
         displayForYellowTeamB(0);
-
         displayForRedTeamA(0);
         displayForRedTeamB(0);
-
         scoreTeamA = 0;
         scoreTeamB = 0;
-
         yellowA = 0;
         yellowB = 0;
-
         redA = 0;
         redB = 0;
     }
