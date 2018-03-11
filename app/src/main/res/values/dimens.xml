@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linear_layout_padding">16dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
+    <dimen name="points_margin">18dp</dimen>
+    <dimen name="points_text_size">72sp</dimen>
+    <dimen name="card_width">15dp</dimen>
+    <dimen name="card_height">22dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="red_card_margin_bottom">28dp</dimen>
+    <dimen name="margin_top_120sp">120sp</dimen>
+    <dimen name="reset_button_padding">48dp</dimen>
+</resources>
