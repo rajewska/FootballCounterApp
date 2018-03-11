@@ -27,6 +27,7 @@
                 android:layout_marginTop="@dimen/margin_24dp"
                 android:gravity="center_horizontal"
                 android:text="@string/team_a"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/header_text_size"
                 android:textStyle="bold" />
 
@@ -130,6 +131,7 @@
                 android:layout_marginTop="@dimen/margin_24dp"
                 android:gravity="center_horizontal"
                 android:text="@string/team_b"
+                android:textColor="@color/text_color"
                 android:textSize="@dimen/header_text_size"
                 android:textStyle="bold" />
 
